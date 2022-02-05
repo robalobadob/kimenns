@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/robalobadob/kimenns#readme",
   "dependencies": {
-    "@popperjs/core": "^2.11.2",
-    "bootstrap": "^5.1.3"
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.3",
+    "react-parallax-tilt": "^1.5.90"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0"
   }
 }
