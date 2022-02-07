@@ -1,4 +1,6 @@
-body {
-    background: grey;
-}
+@import "./body.scss";
+@import "./nav.scss";
+@import "./dividers.scss";
+@import "./footer.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
