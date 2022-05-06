@@ -1,9 +1,10 @@
 .about {
-    background-image: url('../assets/img/KimBasilGreen.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url('../assets/img/KimBasilGreen.jpg') no-repeat fixed center center;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    display: block;
     position: relative;
-    height: 90vh;
+    height: 560px;
     width: 100%;
 }

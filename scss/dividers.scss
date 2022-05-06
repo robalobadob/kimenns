@@ -1,9 +1,7 @@
 .divider1 {
-    background-image: url('../assets/img/GarlicBraids.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url('../assets/img/GarlicBraids.jpg') no-repeat fixed center center;
+    display: block;
     position: relative;
-    height: 50vh;
+    height: 25vh;
     width: 100%;
 }
