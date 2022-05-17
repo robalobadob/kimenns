@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../scss/custom.scss">
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
     <div class="container sticky-top">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand fw-bold" href="#">GardEnns</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,16 +17,16 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#scrollspyHome">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#scrollspyAbout">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#scrollspyServices">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#scrollspyGallery">Gallery</a>
               </li>
             </ul>
           </div>
@@ -34,7 +34,7 @@
       </nav>
     </div>
 
-    <div class="container col-xxl-8 px-4 pb-5">
+    <div class="container col-xxl-8 px-4 pb-5" id="scrollspyHome">
       <div class="row flex-lg-row-reverse align-items-center g-5 pb-5">
         <div class="col-10 col-sm-8 col-lg-6">
           <img src="../assets/img/KimGreenhouse.jpg" class="d-block mx-lg-auto img-fluid" alt="Photo of Kim" width="700" height="500" loading="lazy">
@@ -54,7 +54,7 @@
 
     <div class="container-fluid divider divider1 py-5"></div>
 
-    <div class="container-fluid mb-4 about p-5">
+    <div class="container-fluid mb-4 about p-5" id="scrollspyAbout">
       <div class="row flex-lg-row align-items-center">
         <div class="col-10 col-sm-8 col-lg-4">
           <img class="d-block mx-lg-auto img-fluid" src="../assets/img/KimBasilGreen.jpg" alt="Kim with basil" width="800" height="700" loading="lazy">
@@ -87,7 +87,7 @@
 
     <!-- <div class="container-fluid divider divider1"></div> -->
 
-<div class="container-fluid services">
+<div class="container-fluid services" id="scrollspyServices">
   <div>
     <h2 class="display-6">
       Services
@@ -127,7 +127,7 @@
 
     <!-- <div class="container-fluid divider divider1"></div> -->
 
-    <div class="container-fluid mb-4 gallery">
+    <div class="container-fluid mb-4 gallery" id="scrollspyGallery">
       <blockquote class="blockquote p-5 m-5">
           <h2 class="display-6">
               Gallery 
