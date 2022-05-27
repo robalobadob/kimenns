@@ -46,7 +46,7 @@
           <h1 class="display-5 fw-bold lh-1 mb-3">Kim Enns</h1>
           <p class="lead fw-bold">Master Gardener.  Urban Farmer.  Horticulturalist.</p>
           <p class="subhead">Offering in home gardening tips, consultations, and mapping.  </p>
-          <p class="subhead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nemo perspiciatis at harum, ut dignissimos sequi, repellat natus porro enim modi officia odit aliquam deleniti similique alias! Autem, et aperiam?</p>
+          <!-- <p class="subhead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nemo perspiciatis at harum, ut dignissimos sequi, repellat natus porro enim modi officia odit aliquam deleniti similique alias! Autem, et aperiam?</p> -->
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <a href="#scrollspyServices"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Services</button></a>
           </div>
@@ -151,14 +151,42 @@
     </div>
 
 
-<div class="container" id="scrollspyContact">
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+<div class="container mb-4 p-5" id="scrollspyContact">
+
+  <h2 class="display-6 text-center">
+    Contact 
+  </h2>
+
+  <div class="container-fluid row">
+
+    <div class="col">
+      <img class="d-block mx-lg-auto img-fluid" src="../assets/img/KimBW.jpg" alt="Kim in black & white">
+    </div>
+
+    <div class="col">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="subject" class="form-label">Subject:</label>
+        <select name="subject" class="field-select form-control">
+          <option value="Consultation">Consultation</option>
+          <option value="Workshop">Workshop Inquiry</option>
+          <option value="Retail">Retail Request</option>
+          <option value="General Question">General</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message:</label>
+        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Let me know what you need!"></textarea>
+      </div>
+    </div>
+
   </div>
 </div>
   <!-- central hub
