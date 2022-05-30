@@ -4,17 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../scss/custom.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
     <div class="container sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold" href="#">GardEnns</a>
+          <a class="navbar-brand pfd900" href="#scrollspyHome">GardEnns</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse pfd" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#scrollspyHome">Home</a>
@@ -43,10 +46,10 @@
           <img src="../assets/img/KimGreenhouse.jpg" class="d-block mx-lg-auto img-fluid" alt="Photo of Kim" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">Kim Enns</h1>
-          <p class="lead fw-bold">Master Gardener.  Urban Farmer.  Horticulturalist.</p>
-          <p class="subhead">Offering in home gardening tips, consultations, and mapping.  </p>
-          <div class="d-grid gap-2 d-md-block">
+          <h1 class="lh-1 mb-3 pfd900">Kim Enns</h1>
+          <p class="lead fw-bold pfd">Master Gardener.  Urban Farmer.  Horticulturalist.</p>
+          <p class="subhead pfd">Offering in home gardening tips, consultations, and mapping.  Based out of Vancouver, British Columbia.</p>
+          <div class="d-grid gap-2 d-md-block pfd">
             <a class="btn btn-primary btn-lg px-4 me-md-4" href="#scrollspyServices" role="button">Services</a>
             <a class="btn btn-success btn-lg px-4 me-md-2" href="#scrollspyContact" role="button">Contact Me</a>
           </div>
@@ -56,34 +59,26 @@
 
     <div class="container-fluid divider divider1"></div>
 
-    <div class="container-fluid mb-4 about p-5" id="scrollspyAbout">
+    <div class="container-fluid mb-4 p-5" id="scrollspyAbout">
+
       <h2 class="display-6 text-center">
         About Me 
       </h2>
+
       <div class="row flex-lg-row align-items-center">
-        <div class="col-10 col-sm-8 col-lg-4">
+
+        <div class="col-sm-8 col-lg-4 ms-5">
           <img class="d-block mx-lg-auto img-fluid" src="../assets/img/KimBasilGreen.jpg" alt="Kim with basil" width="800" height="700" loading="lazy">
         </div>
-        <div class="col-lg-8">
-          <blockquote class="blockquote">
-              <p class="subhead">
-                Background - took practicum in sustainable agriculture at UBC farm in 2012 
-                <br><br>
-                Worked from 2013-2016 at a 20 acre certified organic vegetable farm that specialized rare and wild edible plants. As well as restaurants sales, farmers markets and CSA
-                                <br><br>
-                2017- current Urban farming in Vancouver managing a massively productive Rooftop garden that donates all the produce to a transitional home on the DTES 
-                                <br><br>
-                A thriving school garden with a mud kitchen, bug hotel and mason bees and a program where the children plant and cook their own veggies from the garden
-                Work for victory gardens and a garden coach and assist in installations of backyard gardens and maintaining veggie gardens. 
-                Have been in the industry for 10 + years with the balanced blend of urban and rural food growing. Have the knowledge base of production based farming but with the urban side of creating beautiful, enjoyable oasis in urban settings. 
-                Knowledgeable in permaculture, foraging and creating bee and native pollinator friendly gardens 
-                Loves the educational and personal aspect of one on one consultation or coaching, very approachable and understanding of each persons individual goals/needs 
-                Aims for a simple but informative light hearted approach to workshops 
-              <br><br>
 
-              </p>
-          </blockquote>
+        <div class="col-lg-5">
+          <p class="subhead bio pfd">
+            Kim Enns is a certified Master Gardener and has been working in agriculture and urban farms since 2012.  She has had experience working on everything from 20 acre organic vegetable farms to productive rooftop gardens, and she now uses that knowledge to lead workshops or offer one on one consultation and coaching.  Kim aims for a simple, informative and light hearted approach to help you with whatever your garden goals are, whether you want to start your own mud kitchen and bug hotel, or teach kids how to plant and cook their own veggies, or make your current garden more pollinator friendly.  
+            <br><br>
+            Contact Kim to help get your garden growing better today!
+          </p>
         </div>
+
       </div>
     </div>
 
@@ -173,7 +168,7 @@
     Contact 
   </h2>
 
-  <div class="container-fluid align-items-center row">
+  <div class="container-fluid align-items-center row pfd">
 
     <div class="col">
       <img class="d-block mx-lg-auto img-fluid" src="../assets/img/KimBW.jpg" alt="Kim in black & white">
@@ -241,7 +236,7 @@
             <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
           </ul>
 
-          <p class="text-center text-muted">&copy; 2022 Kim Enns, Master Gardener Inc</p>
+          <p class="text-center text-muted pfd">&copy; 2022 Kim Enns, Master Gardener Inc</p>
         </div>
       </footer>
     </div>

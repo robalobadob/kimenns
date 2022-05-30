@@ -1,7 +1,24 @@
 body {
     background: white;
     position: relative;
+    font-family: 'Playfair Display', Verdana, Tahoma, sans-serif;
 }
 
 $primary: #dcd0ff;
 $success: #C3EFC3;
+$h1-font-size: 64px;
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.pfd900 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.pfd {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
