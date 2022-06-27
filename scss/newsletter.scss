@@ -3,6 +3,7 @@
     position: relative;
     overflow: visible;
     z-index: 1;
+    right: 10px;
 }
 
 .newsletter:before, .newsletter:after {
@@ -13,8 +14,9 @@
     background: inherit;
     z-index: -1;
     top: 0;
-    transform-origin: left top;
-    transform: skewY(-1.5deg);
+    transform-origin: right top;
+    transform: skewY(2deg);
+    overflow: hidden;
 }
 
 .newsletter:after {
