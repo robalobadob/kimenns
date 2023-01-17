@@ -26,3 +26,10 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .servicesCard {
+    min-width: 75vw;
+    transform: translateX(-9%);
+  }
+}
