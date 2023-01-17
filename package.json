@@ -2,11 +2,11 @@
   "name": "kimenns",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
     "dev": "parcel ./src/index.html",
     "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./src/index.html --out-dir build"
+    "build": "parcel build ./src/index.html --dist-dir build --public-url ."
   },
   "repository": {
     "type": "git",
