@@ -8,7 +8,8 @@
   .divider1,
   .divider2 {
     min-height: 20vh;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .display-6 {
     font-size: 36px !important;
