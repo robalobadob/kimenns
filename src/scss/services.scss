@@ -1,61 +1,66 @@
 .servicesCard {
-    width: 100%;
-    min-width: 300px;
-    height: 275px;
-    background-color: #dcd0ff;
-    margin: 10px;
-    border-radius: 0.25rem;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
-    font-size: 24px;  
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.07em;
-    transition: all 0.3s ease;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  width: 100%;
+  min-width: 300px;
+  height: 275px;
+  background-color: #dcd0ff;
+  margin: 10px;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .icon {
-    margin: 0 auto;
-    width: 100%;
-    height: 40px;
-    max-width:40px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    transition: all 0.8s ease;
-    background-position: 0px;
-    background-size: 200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  max-width: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.servicesCard .card-title {
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .servicesCard .card-text {
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    letter-spacing: 2px;
-    opacity: 0.75;
-    max-height:0;
-    transition: all 0.3s ease;
- }
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  opacity: 0.75;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
 
 .servicesCard:hover {
-    transform: translate3D(0,-2px,0) scale(1.03);
- }
+  transform: translate3D(0, -2px, 0) scale(1.03);
+}
 
- .servicesCard:hover .card-text {
-    transition: all 0.3s ease;
-    opacity: 1;
-    max-height:40px;
- }
+.servicesCard:hover .card-text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
